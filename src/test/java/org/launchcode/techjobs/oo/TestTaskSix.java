@@ -4,6 +4,11 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
+import org.launchcode.techjobs.oo.CoreCompetency;
+import org.launchcode.techjobs.oo.Employer;
+import org.launchcode.techjobs.oo.Job;
+import org.launchcode.techjobs.oo.Location;
+import org.launchcode.techjobs.oo.PositionType;
 
 /**
  * Created by LaunchCode

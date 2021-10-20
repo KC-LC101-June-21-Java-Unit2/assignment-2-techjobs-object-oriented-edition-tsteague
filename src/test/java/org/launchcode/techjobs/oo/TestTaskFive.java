@@ -166,4 +166,17 @@ public class TestTaskFive extends AbstractTest {
         assertEquals(jobString, job.toString());
     }
 
+    public Job createJob( String name, String employer, String location, String positionType,
+                          String coreCompetency )
+    {
+        Job job = new Job();
+        job.setName( name );
+        job.setEmployer( new Employer(employer) );
+        job.setLocation( new Location(location) );
+        job.setPositionType( new PositionType(positionType) );
+        job.setCoreCompetency( new CoreCompetency(coreCompetency) );
+
+        return job;
+    }
+
 }
