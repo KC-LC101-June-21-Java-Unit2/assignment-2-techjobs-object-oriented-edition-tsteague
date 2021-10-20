@@ -80,8 +80,8 @@ public class JobTest {
     {
         Job job = new Job();
         job.setName( "name" );
-        assertEquals( "\n", job.toString().charAt(0) );
-        assertEquals( "\n", job.toString().substring( job.toString().length() - 1) );
+        assertEquals( '\n', job.toString().charAt(0) );
+        assertEquals( '\n', job.toString().charAt( job.toString().length() - 1) );
     }
 
     public void testToStringContainsCorrectLabelsAndData()
